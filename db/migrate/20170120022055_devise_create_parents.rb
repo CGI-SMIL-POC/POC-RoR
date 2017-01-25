@@ -38,7 +38,7 @@ class DeviseCreateParents < ActiveRecord::Migration
 
     add_index :parents, :email,                unique: true
     add_index :parents, :reset_password_token, unique: true
-    # add_index :parents, :confirmation_token,   unique: true
-    # add_index :parents, :unlock_token,         unique: true
+     add_index :parents, :confirmation_token,   unique: true
+     add_index :parents, :unlock_token,         unique: true
   end
 end
