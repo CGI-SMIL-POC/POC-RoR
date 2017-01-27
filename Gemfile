@@ -40,6 +40,7 @@ group :development, :test do
   gem 'capybara'
   gem 'devise'
   gem 'bootstrap-sass'
+  gem 'pry'
 
 end
 
