@@ -25,6 +25,7 @@ class PeopleController < ApplicationController
   # POST /people
   # POST /people.json
   def create
+    binding.pry
     @person = Person.new(person_params)
 
 
